@@ -1,0 +1,7 @@
+function fullname(){
+            return "poojitha"
+}
+
+var result = fullname()
+console.log("my fullname is : " + result)
+ 
