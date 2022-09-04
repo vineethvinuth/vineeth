@@ -1,0 +1,6 @@
+clear
+echo enter the string 
+read str 
+w='echo $str | wc -c'
+c='expr $w -1'
+echo the number of charactes in a string is $c
